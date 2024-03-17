@@ -9,6 +9,7 @@ import {
     jobit,
     tripguide,
     fitx,
+    unstuff
    
   } from "../assets";
   
@@ -114,6 +115,28 @@ import {
   ];
   
   const projects = [
+    {
+      name: "UnStuff",
+      description:
+        "Simple and Easy file storage web app to save and share files with people fully responsive made with Nextjs and Convex.",
+        site: "https://unstuff.vercel.app/",
+      tags: [
+        {
+          name: "next.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "convex",
+          color: "green-text-gradient",
+        },
+        {
+          name: "shadcn",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: unstuff,
+      source_code_link: "https://github.com/Samyak-J7/unstuff",
+    },
     {
       name: "ImagifAI",
       description:

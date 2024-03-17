@@ -15,7 +15,7 @@ import fitx from "./fitx.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import unstuff from "./unstuff.png";
 export {
   logo,
   backend,
@@ -34,4 +34,5 @@ export {
   tripguide,
   link,
   fitx,  
+  unstuff
 };

@@ -32,7 +32,7 @@ const Navbar = () => {
             <li key={link.id} 
            className={`${active === link.title?"text-white":"text-secondary"} hover:text-white text-[18px] font-medium cursor-pointer`} onClick={()=>setActive(link.title)}>
              <a href={`#${link.id}`}> {link.title} </a> </li>)}
-              <a href="https://drive.google.com/file/d/1QCGRv4CPGuvCqkxznKpFEeq71wJP8gKQ/view" target='_blank'>
+              <a href="https://docs.google.com/document/d/1zLQAYKhF8etE9UKTnPT1JsbVDZODarceQCsCS1Kb_FI/edit?usp=drive_link" target='_blank'>
              <li className={` hover:text-white  text-secondary text-[18px] font-medium cursor-pointer`}>
               Resume
              </li> </a>
@@ -48,7 +48,7 @@ const Navbar = () => {
             <li key={link.id} 
            className={`${active === link.title?"text-white":"text-secondary"} font-popins font-medium text-[16px]`} onClick={()=>{setActive(link.title); setToggle(!toggle)}}>
              <a href={`#${link.id}`}> {link.title} </a> </li>)}
-             <a href="https://drive.google.com/file/d/1QCGRv4CPGuvCqkxznKpFEeq71wJP8gKQ/view" target='_blank'>
+             <a href="https://docs.google.com/document/d/1zLQAYKhF8etE9UKTnPT1JsbVDZODarceQCsCS1Kb_FI/edit?usp=drive_link" target='_blank'>
              <li className={` hover:text-white  text-secondary text-[18px] font-medium cursor-pointer`}>
               Resume
              </li> </a>
