@@ -9,7 +9,8 @@ import {
     jobit,
     tripguide,
     fitx,
-    unstuff
+    unstuff,
+    unitydraw
    
   } from "../assets";
   
@@ -115,6 +116,28 @@ import {
   ];
   
   const projects = [
+    {
+      name: "UnityDraw",
+      description:
+        "Realtime Collaborative whiteboard with video calling to create and edit objects and images with clerk for authentication",
+        site: "https://unitydraw.tech",
+      tags: [
+        {
+          name: "next.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "express.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "socket.io",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: unitydraw,
+      source_code_link: "https://github.com/Samyak-J7/unitydraw",
+    },
     {
       name: "UnStuff",
       description:

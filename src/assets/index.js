@@ -16,6 +16,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import unstuff from "./unstuff.png";
+import unitydraw from "./unitydraw.png";
 export {
   logo,
   backend,
@@ -34,5 +35,6 @@ export {
   tripguide,
   link,
   fitx,  
-  unstuff
+  unstuff,
+  unitydraw
 };
