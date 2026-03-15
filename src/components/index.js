@@ -5,6 +5,7 @@ import About from './About';
 import Experience from './Experience';
 import Works from './Works';
 import Contact from './Contact';
+import Skills from './Skills';
 import Preloader from './Preloader';
 
 export {
@@ -13,6 +14,7 @@ export {
   About,
   Experience,
   Works,
+  Skills,
   Contact,
   EarthCanvas,  
   ComputersCanvas, 

@@ -47,7 +47,7 @@ const About = () => {
         </h2>
       </motion.div>
       <motion.p variants={fadeIn("","",0.1,1)} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-      With expertise spanning frontend technologies like TypeScript, React.js, and Next.js, as well as backend proficiency in Python, Java, and Node.js, I bring a comprehensive skill set to the table. Additionally, I am well-versed in databases such as MongoDB, MySQL, and Firebase, and experienced in frameworks like Express.js and Django. My capabilities extend to authentication methods, API integration, and cloud platforms including AWS, Microsoft Azure, and Google Cloud, making me a versatile developer poised to deliver efficient and scalable solutions.
+      I am a Software Developer Engineer at <span className="text-[#915eff] font-semibold">DZYLO</span>, where I was promoted to <span className="text-[#915eff] font-semibold">Team Lead</span> — managing a 5-member team, conducting daily scrums, and guiding system architecture. I build full-stack systems using <span className="text-white">AngularJS, React, Node.js, Ktor</span>, and cloud services like <span className="text-white">AWS (Lambda, RDS, S3, EventBridge)</span>. I have hands-on experience designing inventory systems, payment integrations (PhonePe, Stripe), AI-powered apps, and production database migrations — always aiming for scalable and efficient solutions.
       </motion.p>
       <div className='mt-20 flex flex-wrap gap-10'>
       {services.map((service, index) => (

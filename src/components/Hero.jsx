@@ -19,10 +19,10 @@ const Hero = () => {
             <span className='text-[#915eff] font-extrabold'>
             <Typewriter
               words={[
+                " Full Stack Developer.",
                 " Frontend Developer.",
                 " Backend Developer.",
-                " App Developer.",
-                " Full Stack Developer."
+                " Team Lead.",
               ]}
               cursor
               cursorStyle='_'
