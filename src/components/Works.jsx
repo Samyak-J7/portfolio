@@ -62,18 +62,6 @@ const ProjectCard = ({
           <h3 className='text-white font-bold text-[24px]'>{name}</h3>
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
         </div>
-
-        <div className='mt-4 flex flex-wrap gap-2'>
-          {tags.map((tag) => (
-            <span
-              key={`${name}-${tag.name}`}
-              className={`text-[12px] font-semibold px-3 py-1 rounded-full ${tag.color}`}
-              style={{ background: "rgba(255,255,255,0.06)", border: "1px solid rgba(255,255,255,0.1)" }}
-            >
-              #{tag.name}
-            </span>
-          ))}
-        </div>
       </Tilt>
     </motion.div>
   );

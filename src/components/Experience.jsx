@@ -23,16 +23,6 @@ const ExperienceCard = ({ experience }) => {
       }}
       contentArrowStyle={{ borderRight: "7px solid  #232631" }}
       date={experience.date}
-      iconStyle={{ background: experience.iconBg, boxShadow: `0 0 0 4px ${experience.type === "work" ? "#915eff" : "#00cea8"}` }}
-      icon={
-        <div className='flex justify-center items-center w-full h-full'>
-          <img
-            src={experience.icon}
-            alt={experience.company_name}
-            className='w-[70%] h-[70%] object-contain'
-          />
-        </div>
-      }
     >
       <div>
         <div className="flex items-center gap-3 flex-wrap">
@@ -115,4 +105,4 @@ const Experience = () => {
   );
 };
 
-export default SectionWrapper(Experience, "work");
+export default SectionWrapper(Experience, "work");
